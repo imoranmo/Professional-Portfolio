@@ -5,34 +5,40 @@
 }
 
 body {
-    background-color: #C0DDE9;
+    background-color: #D4D9F7;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
   /* Top Navigation Section */
 .header {
-    display: flex;
-    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    color: #1F435B;
+    color: #4B4E60;
+
 }
-/*  Company Name */
+
+.text {
+    position: absolute;
+    display: block;
+    padding-top: 150px;
+    padding-left: 90px;
+}
 
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    font-size: 80px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+.header h2 {
+    color: #FF6464;
+    opacity: 80%;
+    font-size: 50px;
 
-}/*  Navgigation list */
+}/*  Navgigation list **/
 
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    padding-top: 320px;
+    margin-left: 90px;
     font-size: 20px;
 }
 
@@ -40,12 +46,16 @@ body {
    
     list-style-type: none;
     display: inline-block;
-    margin-left: 25px;
+    margin-right: 20px;
+    
 }
 
-a {
-    color: #ffffff;
+.header a {
+    color: #D4D9F7;
+    background-color: #4B4E60;
+    padding: 10px;
     text-decoration: none;
+    border-radius: 9% 9% 0 0;
 }
 
 p {
@@ -54,9 +64,10 @@ p {
 
 /* Background image  */
 .hero {
-    display: flex;
-    flex-direction: row-reverse;
-
+    position: relative;
+    padding-top: 0px;
+    float: right;
+    transform: scaleX(-1);
 }
 
 /* Content on Left side of website  */
@@ -64,7 +75,6 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
 }
 
@@ -72,10 +82,11 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-color: #0072bb;
+    background-color: #FF6464;
 }
 
 .benefit h2 {
+
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -93,41 +104,37 @@ p {
 }
 
 /*  Contents on right side of website */
-.benefits {
+.contact2 {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
-    float: right;
+    float: left;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #4B4E60;
+    border-radius: 0 5% 5% 0;
 }
 
-.benefit2 {
+.contact {
+    margin-top: 20px;
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.benefit2 h3 {
-    margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit2 img {
+.contact h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.contact img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 80px;
 }
 
-/*  Footer */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
+.contact a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
 }
