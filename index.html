@@ -2,33 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style2.css">
     <title>Ismael Moran Professional Portfolio</title>
 </head>
 <body>
+   
+ <!-- Header  -->
+    <main>
+        <aside>
+          <h1>Ismael Moran-Montero</h1>
+          <h2>Professional Portfolio</h2>
+          <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact Me</a>
+                </li>
+                <li>
+                  <a href="./assets/images/IsmaelM_Resume.pdf" download>Resume</a>
+              </li>
+            </ul>
+        </nav>
+        </aside>
 
-    <!---- HEADER SECTION WITH BUTTONS -->
-    <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="./assets/images/Animateddesk.gif" alt="Office Desk" class="desk d-block mx-lg-auto img-fluid" />
-            </div>
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3 text-center"> Ismael Moran-Montero</h1>
-                <h1 class="display-5 fw-bold lh-1 mb-3 text-center Secondrow"> Professional Portfolio</h1>
-                <div class="d-grid gap-2 d-md-flex justify-content-sm-center ">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">About Me</button>
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Work</button>
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contact Me</button>
-                </div>
-            </div>
+        <div class="Desk">
+          <section>
+            <img src="./assets/images/Animateddesk.gif" alt="Office Desk" />
+          </section>
         </div>
-    </div>
-    
-    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </main>
+
+<!-- About Me  -->
+    <main>
+        <article id="about-me" class="about">
+
+            <img src="./assets/images/Ismael.jpg" class="float-left" alt="Ismael Picture"/>
+
+            <h2>About Me</h2>
+            <p>
+              Located in San Diego California in which I was born and raised. Currently working in the Market Research field as a survey programmer. I have worked in the market research industry for 10 years and have gained experience working with code. I am currently also a UCSD bootcamp student looking to expand my experience with coding in order to improve my knowledge and help with my career.
+            </p>
+        </article>
+
+ <!-- Work  -->
+
+        <div id= "Work" class="Work">
+            <h2>Work</h2>
+            <section class="card special">
+              <header>Meal Planner</header>
+              <a href="https://imoranmo.github.io/What-are-we-having/">
+              <img src="./assets/images/mealplanner.png" alt="Project 1" />
+              </a>
+            </section>
+            <section class="card">
+              <header>Code Quiz</header>
+              <a href="https://imoranmo.github.io/Code-Quiz/">
+              <img src="./assets/images/codequiz.png" alt="Code Quiz" />
+            </a>
+            </section>
+            <section class="card">
+              <header>Weather Dashboard</header>
+              <a href="https://imoranmo.github.io/Weather-Dashboard/">
+              <img src="./assets/images/weatherdash.png" alt="Weather Dashboard" />
+              </a>
+            </section>
+        </div>
+
+ <!-- Contact  -->
+       <div id= "Contact" class="Contact">
+        <section class="info">
+            <h2>Contact</h2>
+          </section>
+            <section class="info">
+              <img src="./assets/images/phone.png" alt="Phone" />
+              <header>Phone</header>
+              <header>619-206-9403</header>
+            </section>
+            <section class="info">
+              <img src="./assets/images/mail.png" alt="Email" />
+              <header>Email</header>
+              <header>imoranmo@gmail.com</header>
+            </section>
+            <section class="info">
+              <img src="./assets/images/github.png" alt="Github" />
+              <a href="https://github.com/imoranmo"><header>Github account</header></a>
+            </section>
+            <section class="info">
+              <img src="./assets/images/linkedin.png" alt="Linked In" />
+              <a href="https://www.linkedin.com/in/ismael-moran-5060a815"><header>LinkedIn account</header></a>
+            </section>
+          </div>
+
+    </main>
 </body>
 </html>
